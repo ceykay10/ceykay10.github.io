@@ -38,11 +38,12 @@ header.startup h1 {
 .btn {
   font-weight: 700;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
-  display: flex;
-  justify-content: center
-}
+  }
 
 .btn-xl {
   padding: 1rem 2rem; 
